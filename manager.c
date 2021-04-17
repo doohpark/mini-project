@@ -110,7 +110,8 @@ void searchStar(Product *p, int count){
     scanf(" %d", &search);
     printf("===============================\n");
     for(int i=0; i<count; i++){
-        if(p[i].price == -1) continue;
+        if(p[i].price == -1)
+	       	continue;
         if(p[i].star == search){
             printf("%2d", i+1);
             readProduct(p[i]);
