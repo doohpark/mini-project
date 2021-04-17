@@ -53,21 +53,21 @@ int main(void) {
         saveData(slist, index);
  }
     else if(menu == 6){
-        int choice;
+        int c;
         printf("검색: 1.이름 2.가격 3.별점\n 선택: ");
         scanf("%d",&choice);
 
-        if(choice == 0){
+        if(c == 0){
           printf("=> 취소됨!\n");
           continue;
         }
-        else if(choice == 1){
+        else if(c == 1){
           searchName(slist, index);
         }
-        else if(choice == 2){
+        else if(c == 2){
           searchPrice(slist, index);
             }
-        else if(choice == 3){
+        else if(c == 3){
           searchStar(slist, index);
             }
         }
