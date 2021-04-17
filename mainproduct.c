@@ -72,7 +72,7 @@ int main(void) {
             }
         }
     }
-    printf("종료됨 ^>^");
+    printf("=> 종료됨^^");
     
     return 0;
 }
