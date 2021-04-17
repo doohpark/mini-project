@@ -1,7 +1,7 @@
 #ifndef PRODUCT
 #define PRODUCT
 typedef struct{
-    char name[20];
+    char name;
     int weight;
     int price;
     int star;
