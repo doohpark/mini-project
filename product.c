@@ -41,6 +41,6 @@ int deleteProduct(Product *p){
      p->price =-1;
      p->star =-1;
      p->starnum =-1;
-     printf("=>삭제됨!");
+     printf("=> 삭제됨!");
     return 1;
 }
